@@ -1,0 +1,60 @@
+
+
+.blog .card-body{
+   background-color: #fff;
+}
+.blog .card-body p{
+    word-spacing: 1px;
+    color: rgb(105, 100, 100);
+
+}
+.header-text{
+    font-weight: bold;
+    color: chocolate;
+    text-transform: capitalize;
+
+}
+
+.learn-more{
+    display: inline-block;
+
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: chocolate;
+    border-radius: 20px 40px 40px 0 ;
+    padding: 14px 22px;
+    color: #fff;
+}
+.pricePro{
+    text-decoration: line-through;
+}
+
+.modal-content{
+    width: 130%;
+}
+.modal-body{
+ display: flex;
+ justify-content: space-evenly;
+ margin-left: 20px;
+
+}
+.modal-body img{
+    display: inline-block;
+    margin-top: 34px;
+    width: 200px;
+    height: 200px;
+}
+.modal-body-item{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+
+    .modal{
+        margin-left: unset;
+        }
+    
+}

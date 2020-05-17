@@ -1,0 +1,78 @@
+ 
+ .caption-serv p{
+     color: darkgray;
+ }
+ 
+ .caption-serv{
+   text-transform: capitalize;
+   margin-bottom: 60px;
+   color: #333;
+}
+.serv-item i{
+display: inline-block;
+background-color: chocolate;
+padding: 20px;
+border-radius: 50%;
+color: #fff;
+}
+
+.serv-item p{
+    width: 60%;
+    margin-left: 15%;
+}
+.sevice-icon {
+    font-size: 40px;
+    display: inline-block;
+    width: 128px;
+    height: 125px;
+    border-radius: 50%;
+    color: white;
+    /* padding: 30px; */
+
+}
+.cericle {
+    border: 3px solid rgba(255, 255, 255, 0.422);
+    border-radius: 50%;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    transform: translate(0%,11%);
+}
+
+
+.cericle i {
+    font-size: 60px;
+    transform: translate(-5%,26%);
+
+}
+.firset{
+    background-color: #e4b2d6;
+}
+.seound{
+    background-color: #dcc698;;
+
+}
+.thired{
+    background-color: #a2d1e1;
+
+}
+.forth{
+    background-color: #dcd691;
+
+}
+.sevice-icon:hover{
+    // transform: rotate(360deg);
+    background-color: rgba(000,000,000,0.5);
+   
+}
+
+@media (max-width: 600px){
+    .serv-left{
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .serv-item p{
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,182 @@
+/*-------------------------------- CART TEMPLATE --------------------------------------------*/
+/* cover section  */
+.cover-sec{
+    background-image: url(../images/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    color: lightyellow;
+}
+
+
+.cover-sec-img{
+    display: inline-block;
+    width: 223px;
+    height: 238px;
+    margin-left: -58px; 
+}
+
+.cover-sec-price{
+    margin-left: 120px;
+    margin-top: 121px;
+}
+.btn-increase,.btn-decrease{
+padding: 6px 12px;
+background-color: chocolate;
+border: 1px solid chocolate;
+color: #fff;
+}
+.quntity{
+    border: 1px solid lightgray;
+    display: inline-block;
+    padding: 6px 32px;
+    margin-top: 100px;
+}
+.cover-sec-quntity{
+    margin-left: 90px;
+    margin-top: 121px;
+}
+.product-sec p{
+    font-weight: bold;
+    margin-top: 100px;
+}
+.product-sec span{
+    color: chocolate;
+}
+.table .thead-dark th{
+    background-color: #505962;
+    border-color: #505962;
+}
+.total-price,.price-cart,.btn-danger{
+    margin-top: 100px;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 1200px){
+    .cover-sec-img{
+    width: 140px;
+    height: 140px;
+    margin-left: -30px;    }
+   
+    .cover-sec-quntity{
+        margin-left: 12px;
+        margin-top: 121px;
+    }
+    .total-price,.price-cart,.btn-danger{
+        margin-top: 80px;
+    }
+    .quntity{
+        padding: 6px 25px;
+        margin-top: 40px;
+
+    }
+    .btn-increase,.btn-decrease{
+
+        padding: 6px 24px;
+        position: relative;
+
+        }
+       
+        .btn-increase {
+            top: 40px;
+        }
+        .btn-decrease{
+            padding: 6px 26px;
+
+            top:-16px
+        }
+        
+    }
+
+/*-------------------------------- product TEMPLATE --------------------------------------------*/
+
+
+
+   .list-product ul{
+        width: 60%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+   .list-product ul li{
+        text-transform: capitalize;
+        color: chocolate;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+    .list-product .activeLi{
+        background-color: chocolate;
+        border-radius: 4px;
+        padding: 6px 24px;
+        color: #fff;
+    }
+
+    /*-------------------------------- About us TEMPLATE --------------------------------------------*/
+    .about-us-panner {
+       
+        background-image: url("../images/bg_2.jpg");
+        padding-bottom: 59px;
+        padding-top: 97px;
+        margin-bottom: 100px;
+        color: #fff;
+    }
+.about-us{
+    background-color: #f7f6f2 !important;
+}
+    .content-about-us-vedio img{
+          width: 500px;
+        height: 600px;
+        margin-top: 100px;
+        position: relative;
+    }
+    .content-about-us-discription{
+        margin-top: 200px;
+    }
+
+    .servies-background{
+        background-color: #f7f6f2 !important;
+        padding: 50px;
+        position: relative;
+    }
+.video-demo{
+    width: 600px;
+    height: 600px;
+}
+    .top-about {
+        display: inline-block;
+        background-color: #82ae46;
+       
+        border-radius: 50%;
+        position: absolute;
+        top: 358px;
+        left: 50%;
+        color: #fff;
+        padding: 20px 26px;
+    }
+    @media only screen and (max-width: 1200px){
+
+    .content-about-us-vedio img {
+        width: 400px;
+        height: 445px;
+    }
+    .list-product ul li{
+        margin-left: 10px;
+    }
+
+    .content-about-us-discription{
+        margin-top: 60px;
+    }
+}
+
+.fa-play{
+    display: inline-block;
+    position: absolute;
+    right: 50%;
+    top: 40%;
+    color: #fff;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #82ae46;
+
+}
+

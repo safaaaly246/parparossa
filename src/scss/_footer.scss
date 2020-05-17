@@ -1,0 +1,192 @@
+/* -------------------------------------------------------------------------- */
+.contact{
+	background-image: url("../../img/my blog/single_blog_1.png");
+	background-size:cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+.contact-form{
+	padding:40px;
+	border:1px solid #fff;
+    position:relative;
+    font-family: cursive;
+
+}
+legend{
+    font-size: 40px;
+    width:60%
+}
+legend h4{
+    font-size: 40px;
+}
+.contact h2 ,
+.contact h4,
+label{
+    color:#fff;
+    text-transform: capitalize;
+}
+label{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.contact button{
+	background-color:chocolate;
+	color:#fff
+}
+.contact-form label{
+	text-align: left;
+	text-transform: capitalize;
+	float:left
+}
+.contact-form  input ,.contact-form textarea ,.contact-form button{
+    border-radius: 0%;
+}
+.contact-form button{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.contact-info{
+	padding:30px;
+	background-color:#fff
+}
+.contact-info-details i{
+	color:#ff5722;
+	font-size:35px
+}
+.massageArea{
+    padding: 0;
+    height: 200px;
+}
+/* -------------------------------------------------------------------------- */
+/*                               partners start                               */
+/* -------------------------------------------------------------------------- */
+.partners{
+    text-align: center;
+    padding: 80px 0;
+}
+.partners-header{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.partners-header span{
+    font-weight: bold;
+}
+.partners .fa{
+    font-size: 75px;
+    color: #d6d6d6;
+    margin-bottom: 20px;
+}
+.partners .fa:hover{
+    color: #F44336;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                footer start                                */
+/* -------------------------------------------------------------------------- */
+.footer{
+    padding: 80px 0;
+    background-image: url(../../img/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer #logo{
+    color: chocolate;
+    font-size:50px;
+    font-weight: bold;
+}
+.footer .logo i{
+    color: chocolate;
+    top: 16px;
+    bottom: unset;
+}
+.footer-connect{
+    display: flex;
+    flex-direction: row;
+    color: #999;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.footer-connect .fas{
+    margin-right: 8px;
+}
+.place:hover .fas,
+.phone:hover .fas,
+.email:hover .fas{
+    color: #333;
+    transition: .5s all;
+}
+.footer-text{
+    margin-bottom: 30px;
+    width: 50%;
+    margin: 20px auto;
+    
+}
+.phone,
+.place,
+.email{
+    margin: 0 30px;
+}
+.footer-media{
+    display: flex;
+    margin-top: 30px;
+}
+.facebook{
+    background: #3b5998; 
+}
+.facebook:hover{
+    background-color: #3b5998ad;
+    transition: .5s all;
+    cursor: pointer;
+}
+.twitter{
+    background-color:#1da1f2;
+    margin:0 10px
+}
+.twitter:hover{
+    background-color: #1da1f2a6;
+    transition: .5s all;
+    cursor: pointer;
+}
+.rss{
+    background-color: #f26522;
+    margin-right: 10px;
+}
+.rss:hover{
+    background-color: #f26522b3;
+    transition: .5s all;
+    cursor: pointer;
+}
+.vk{
+    background-color:#45668e
+}
+.vk:hover{
+    background-color: #45668eb8;
+    transition: .5s all;
+    cursor: pointer;
+}
+.twitter,.facebook,.rss,.vk{
+    height: 38px;
+    width: 38px;
+    font-size: 15px;
+    line-height: 2.5;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+#top{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    color: chocolate;
+    font-size: 30px;
+    transition: .5s all;
+}
